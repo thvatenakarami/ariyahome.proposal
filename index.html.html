@@ -1,0 +1,251 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07182f"><title>Ariyahome | SEO & Digital Growth Proposal | Atena Karami</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Estedad:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;600;700&family=Dancing+Script:wght@600;700&display=swap');
+:root{--n:#07182f;--n2:#0d2748;--g:#c9a45c;--g2:#ead7a6;--w:#fff;--m:#adbdcf;--line:#ffffff18;--danger:#ff8f8f}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--n);color:var(--w);font-family:Estedad,sans-serif}button,input{font:inherit}button{touch-action:manipulation}body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 10% 10%,#c9a45c22,transparent 25%),radial-gradient(circle at 90% 80%,#3b75a522,transparent 30%)}
+.progress{position:fixed;top:0;right:0;height:3px;background:linear-gradient(90deg,var(--g),var(--g2));width:6.25%;z-index:200;transition:width .65s cubic-bezier(.2,.8,.2,1)}
+.stage{position:relative;width:100%;height:100%;perspective:1600px}.section{position:absolute;inset:0;min-height:100svh;height:100svh;padding:clamp(62px,7vw,105px) clamp(22px,7vw,105px);display:flex;align-items:center;overflow:auto;opacity:0;visibility:hidden;pointer-events:none;transform:translate3d(7%,0,-120px) rotateY(-3deg);filter:blur(10px);transition:opacity .55s ease,transform .78s cubic-bezier(.22,.8,.2,1),filter .55s ease,visibility 0s linear .78s;background:linear-gradient(145deg,#07182ff7,#0b2340f2)}
+.section::after{display:none!important;content:none!important}.section.active{opacity:1;visibility:visible;pointer-events:auto;transform:translate3d(0,0,0) rotateY(0);filter:none;z-index:3;transition-delay:0s}.section.exit-left{opacity:0;visibility:hidden;transform:translate3d(-7%,0,-120px) rotateY(3deg);filter:blur(10px);z-index:2}.section.enter-back{transform:translate3d(-7%,0,-120px) rotateY(3deg)}
+.wrap{width:min(1200px,100%);margin:auto;display:flex;flex-direction:column;justify-content:center;min-height:100%;position:relative}.k{color:var(--g2);font:12px Space Grotesk,sans-serif;letter-spacing:2px;margin-bottom:18px;text-transform:uppercase}h1{font-size:clamp(42px,7vw,94px);line-height:1.06;margin:0;letter-spacing:-2px}h2{font-size:clamp(30px,4.5vw,60px);line-height:1.25;margin:0 0 24px}h3{color:var(--g2);margin:0 0 10px;font-size:19px}p,li{color:var(--m);line-height:2;font-size:15px}.gold{color:var(--g2)}.hero{background:linear-gradient(90deg,#07182ff7 15%,#07182fcc 55%,#07182f55),url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=2200&q=90') center/cover}.hero-copy{max-width:950px}.sub{max-width:720px;margin-top:24px}.badge{display:inline-flex;gap:10px;margin-top:28px;padding:10px 16px;border:1px solid #ead7a644;border-radius:30px;color:var(--g2);background:#07182f66;backdrop-filter:blur(10px);font:12px Space Grotesk}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:28px}.card{grid-column:span 4;padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#ffffff10,#ffffff04);transition:.35s}.card:hover{transform:translateY(-7px);border-color:#c9a45c99}.wide{grid-column:span 6}.list{padding:0;margin:10px 0;list-style:none}.list li{padding:5px 0;border-bottom:1px solid #ffffff0c}.list li:before{content:"✦";color:var(--g);margin-left:8px}.quote{margin-top:28px;border-right:2px solid var(--g);padding:8px 22px;max-width:900px}.matrix{border:1px solid var(--line);border-radius:20px;overflow:hidden;margin-top:28px}.row{display:grid;grid-template-columns:1fr 2fr;border-bottom:1px solid var(--line)}.row:last-child{border:0}.row div{padding:17px 20px}.row div:first-child{color:var(--g2);background:#ffffff05}.flow{display:flex;margin-top:32px;overflow-x:auto;padding-bottom:10px}.flow-item{min-width:190px;flex:1;padding:22px 17px;border-top:2px solid var(--g);background:#ffffff08;position:relative}.flow-item:not(:last-child):after{content:"→";position:absolute;left:-12px;top:23px;color:var(--g);font-family:Space Grotesk}.flow-no{color:var(--g);font:12px Space Grotesk}.flow-title{display:block;font-weight:700;font-size:18px;margin:8px 0}.featured{border-color:var(--g);box-shadow:0 0 45px #c9a45c14}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .75s cubic-bezier(.2,.8,.2,1)}.active .reveal{opacity:1;transform:none}.active .d1{transition-delay:.1s}.active .d2{transition-delay:.2s}.active .d3{transition-delay:.3s}
+.footer-brand{position:fixed;bottom:17px;right:28px;left:28px;display:flex;justify-content:space-between;align-items:center;color:#ead7a6;font:11px Space Grotesk,sans-serif;z-index:120;letter-spacing:1px;pointer-events:none}.footer-brand:before{content:"";position:absolute;right:0;left:0;bottom:22px;height:1px;background:linear-gradient(90deg,transparent,#ead7a633,transparent)}
+.slide-controls{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;z-index:150}.slide-controls button{width:48px;height:48px;border-radius:50%;border:1px solid #ead7a65c;background:#0a203bde;color:var(--g2);font-size:21px;cursor:pointer;backdrop-filter:blur(14px);transition:.25s}.slide-controls button:hover:not(:disabled){background:var(--g);color:var(--n);transform:translateY(-3px)}.slide-controls button:disabled{opacity:.28;cursor:not-allowed}.nav-dots{position:fixed;left:22px;top:50%;transform:translateY(-50%);z-index:130;display:flex;flex-direction:column;gap:9px}.nav-dots button{width:7px;height:7px;border:0;padding:0;border-radius:50%;background:#718095;cursor:pointer;transition:.25s}.nav-dots button.active{background:var(--g);transform:scale(1.7)}
+.approval-slide{background:radial-gradient(circle at 80% 10%,#c9a45c1f,transparent 30%),linear-gradient(135deg,#07182f,#0b2545)}.approval-wrap{justify-content:flex-start}.lead{max-width:900px;margin:0 0 20px}.approval-layout{display:grid;grid-template-columns:1.25fr .9fr;gap:22px;width:100%;align-items:start}.service-panel,.contract-panel{display:flex;flex-direction:column;gap:16px}.panel-head,.form-title{display:flex;justify-content:space-between;align-items:end;margin-bottom:12px}.panel-head strong,.form-title small{color:var(--g2);font:11px Space Grotesk;letter-spacing:1px}.service-premium{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.service-card{position:relative;padding:20px 18px;border:1px solid var(--line);border-radius:20px;background:#ffffff08;min-height:320px}.service-card.featured-service{border-color:#c9a45c88;background:linear-gradient(145deg,#c9a45c17,#ffffff06)}.service-index{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#c9a45c1c;color:var(--g2);font:11px Space Grotesk;margin-bottom:14px}.service-card h3{font-size:17px}.service-card p,.service-card li{font-size:12px;line-height:1.9}.service-card ul{padding-right:18px;margin:12px 0 0}.consultant-card,.client-form{border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#ffffff0e,#ffffff05);padding:20px}.consultant-card{text-align:center}.mini-label{color:var(--g2);font:10px Space Grotesk;letter-spacing:1px}.signature-name{font-family:'Dancing Script',cursive;font-size:42px;line-height:1.1;color:var(--g2);direction:ltr}.consultant-card>strong{display:block;font-size:18px;margin:5px 0}.consultant-card>p{font:11px Space Grotesk;line-height:1.7}.validity{display:flex;justify-content:space-between;gap:10px;padding:12px;border-radius:14px;background:#06172b;margin:14px 0;font-size:11px}.validity b{color:var(--g2)}.owner-signature{height:80px;border:1px dashed #c9a45c77;border-radius:14px;background:var(--n);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}.signature-placeholder{font-family:'Dancing Script',cursive;font-size:34px;color:#ead7a6;transform:rotate(-6deg)}.owner-signature small{color:#8fa2b7;font-size:9px}.client-form{padding:18px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.client-form label>span,.scope-label>span{display:block;color:#dce5ee;font-size:11px;margin:0 0 5px}.client-form input[type=text],.client-form input[type=date]{width:100%;background:#04162a;border:1px solid #ffffff25;color:#fff;padding:10px 11px;border-radius:10px;outline:0}.client-form input:focus{border-color:var(--g);box-shadow:0 0 0 3px #c9a45c16}.scope-label{display:block;margin-top:10px}.check-row{display:flex;flex-wrap:wrap;gap:7px}.check-row label{display:flex;align-items:center;gap:5px;border:1px solid #ffffff20;background:#06192e;padding:6px 8px;border-radius:9px;font-size:10px;color:var(--m)}.signature-area{margin-top:12px}.signature-toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;font-size:11px}.signature-toolbar button{border:0;background:transparent;color:var(--g2);cursor:pointer;font-size:10px}#signatureCanvas{display:block;width:100%;height:105px;background:#f7f2e8;border-radius:12px;cursor:crosshair;touch-action:none}.signature-area small{display:block;color:#8fa2b7;font-size:9px;margin-top:4px}.consent{display:flex!important;align-items:flex-start;gap:8px;margin-top:12px}.consent span{margin:0!important;color:#9fb0c1!important;font-size:9px!important;line-height:1.7}.form-actions{display:grid;grid-template-columns:1.2fr .8fr;gap:8px;margin-top:12px}.form-actions button,.restart-btn{border-radius:11px;padding:10px 12px;cursor:pointer;border:1px solid var(--g);font-size:10px}.primary-action{background:var(--g);color:var(--n);font-weight:800}.secondary-action{background:transparent;color:var(--g2)}.form-status{min-height:18px;margin-top:7px;font-size:9px;color:var(--g2)}
+.thanks-slide{text-align:center;background:radial-gradient(circle at 50% 35%,#c9a45c23,transparent 28%),linear-gradient(145deg,#07182f,#0b2748)}.thank-wrap{align-items:center;max-width:900px}.thank-mark{width:95px;height:95px;border-radius:50%;display:grid;place-items:center;border:1px solid #c9a45c88;background:#c9a45c10;color:var(--g2);font:26px Space Grotesk;margin-bottom:26px;box-shadow:0 0 70px #c9a45c24}.thank-wrap p{max-width:760px}.thank-sign{margin-top:25px;display:flex;flex-direction:column}.thank-sign small{font:10px Space Grotesk;color:#9fb0c1;letter-spacing:1px}.restart-btn{margin-top:26px;background:transparent;color:var(--g2);padding:11px 24px}
+.pdf-mode{overflow:visible!important}.pdf-mode .footer-brand,.pdf-mode .slide-controls,.pdf-mode .nav-dots,.pdf-mode .progress{display:none!important}.pdf-mode .stage{height:auto;perspective:none}.pdf-mode .section{position:relative!important;display:flex!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:none!important;filter:none!important;height:1122px!important;min-height:1122px!important;page-break-after:always;overflow:hidden!important}.pdf-mode .reveal{opacity:1!important;transform:none!important}.pdf-mode .section:last-child{page-break-after:auto}.pdf-mode .form-actions,.pdf-mode .signature-toolbar button,.pdf-mode .restart-btn{display:none!important}
+@media(max-width:1000px){.approval-layout{grid-template-columns:1fr}.approval-slide{align-items:flex-start}.service-card{min-height:auto}.approval-wrap{padding-bottom:90px}.contract-panel{display:grid;grid-template-columns:.8fr 1.2fr}.section{padding-bottom:90px}.grid{grid-template-columns:repeat(6,1fr)}.card,.wide{grid-column:span 3}}
+@media(max-width:700px){.section{padding:65px 18px 92px}.grid{grid-template-columns:1fr}.card,.wide{grid-column:1/-1}.nav-dots{display:none}.footer-brand{right:14px;left:14px;font-size:9px}.slide-controls{bottom:24px}.service-premium{grid-template-columns:1fr}.contract-panel{display:flex}.field-grid{grid-template-columns:1fr}.approval-slide{overflow:auto}.approval-wrap{justify-content:flex-start}.panel-head{align-items:flex-start;gap:8px}.form-actions{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.section{transform:none!important;filter:none!important}.reveal{opacity:1;transform:none}}
+</style><meta name="description" content="Client-ready SEO, website and digital growth proposal prepared for Ariyahome by Atena Karami.">
+<style id="final-motion-font-alignment-fix">
+/* Requested final-only refinements: Dana typography, centered section titles, fade slide transition */
+@font-face{font-family:'Dana';src:local('Dana'),local('Dana Regular'),local('Dana-Regular');font-weight:100 900;font-style:normal;font-display:swap}
+html,body,button,input,textarea,select{font-family:'Dana','Estedad',sans-serif!important}
+.signature-name,.signature-placeholder{font-family:'Dancing Script',cursive!important}
+.section{
+  transform:none!important;
+  filter:none!important;
+  opacity:0;
+  transition:opacity .68s ease,visibility 0s linear .68s!important;
+}
+.section.active{
+  opacity:1;
+  transform:none!important;
+  filter:none!important;
+  transition:opacity .68s ease,visibility 0s linear 0s!important;
+}
+.section.exit-left,.section.enter-back{transform:none!important;filter:none!important}
+.section .k,.section h1,.section h2{width:100%;text-align:center!important}
+</style>
+
+<style>
+/* Center card titles only */
+.card h3,
+.card h2,
+.card .flow-title,
+.card strong,
+.service-card h3,
+.service-card h2 {
+  text-align: center !important;
+  width: 100%;
+}
+</style>
+
+
+<style>
+/* Flow sections alignment fix */
+.flow{
+  width:100%;
+  display:grid!important;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:0;
+  overflow:visible!important;
+  padding:0!important;
+  margin:32px 0 0!important;
+  direction:rtl;
+  border-radius:18px;
+}
+.flow-item{
+  min-width:0!important;
+  width:auto!important;
+  min-height:145px;
+  padding:24px 18px 20px!important;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:center!important;
+  border-top:2px solid var(--g);
+  border-left:1px solid rgba(255,255,255,.08);
+}
+.flow-item:last-child{border-left:0}
+.flow-item:not(:last-child):after{
+  content:"←"!important;
+  left:-10px!important;
+  right:auto!important;
+  top:25px!important;
+  width:20px;
+  height:20px;
+  display:grid;
+  place-items:center;
+  background:var(--n2);
+  border-radius:50%;
+  z-index:2;
+}
+.flow-no,.flow-title,.flow-item p{
+  width:100%;
+  text-align:center!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+.flow-item p{margin-top:4px!important;margin-bottom:0!important}
+@media(max-width:900px){
+  .flow{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .flow-item{border:1px solid rgba(255,255,255,.08);border-top:2px solid var(--g);border-radius:14px}
+  .flow-item:not(:last-child):after{display:none}
+}
+@media(max-width:640px){
+  .flow{grid-template-columns:1fr!important;margin:24px 0 0!important;padding:0!important}
+  .flow-item{min-height:auto}
+}
+</style>
+</head><body>
+<div class="progress" id="progress"></div>
+<div class="stage" id="stage"><section aria-hidden="true" class="section hero" data-slide="0" id="s1"><div class="wrap hero-copy"><div class="k reveal">SEO & Digital Growth Proposal · 2026</div><h1 class="reveal d1">از اعتبار فروشگاه شما<br/>تا <span class="gold">انتخاب اول مشتری در جست‌وجو</span></h1><p class="sub reveal d2">پیشنهاد تخصصی طراحی زیرساخت فروش آنلاین، تدوین استراتژی SEO و ساخت مسیر رشد پایدار برای آریا هوم؛ با تمرکز بر جذب جست‌وجوهای ارزشمند، افزایش اعتماد و تبدیل بازدیدکننده به مشتری.</p><div class="badge reveal d3">Strategy · Website Foundation · SEO Growth</div></div></section>
+<section aria-hidden="true" class="section" data-slide="1" id="s2"><div class="wrap"><div class="k reveal">01 — Project Context</div><h2 class="reveal d1">قبل از طراحی سایت، باید بدانیم<br/><span class="gold">قرار است چه نتیجه‌ای ایجاد کنیم.</span></h2><p class="reveal d2">آریا هوم از تجربه بازار، تنوع محصول و ظرفیت فروش برخوردار است. هدف این پروژه صرفاً راه‌اندازی یک وب‌سایت نیست؛ بلکه ایجاد یک دارایی دیجیتال قابل توسعه است که محصولات را درست معرفی کند، در نتایج جست‌وجو دیده شود و مسیر تصمیم‌گیری مشتری را تا تماس یا خرید کوتاه‌تر کند.</p><div class="grid"><div class="card reveal"><h3>Business</h3><p>شناخت مدل کسب‌وکار، محصولات، اولویت‌های فروش و مزیت رقابتی.</p></div><div class="card reveal d1"><h3>Market</h3><p>درک بازار، مشتریان و فرصت‌های موجود در فضای Search.</p></div><div class="card reveal d2"><h3>Digital</h3><p>ایجاد زیرساختی که از ابتدا قابلیت توسعه و رشد ارگانیک داشته باشد.</p></div></div></div></section>
+<section aria-hidden="true" class="section" data-slide="2" id="s3"><div class="wrap"><div class="k reveal">02 — Business Understanding</div><h2 class="reveal d1">اول کسب‌وکار را می‌فهمیم؛<br/>بعد برای آن <span class="gold">استراتژی می‌سازیم.</span></h2><div class="matrix reveal d2"><div class="row"><div>Business Analysis</div><div>مدل فروش، سابقه فعالیت، مزیت رقابتی، اولویت‌های تجاری و اهداف کسب‌وکار.</div></div><div class="row"><div>Product Analysis</div><div>شناخت دسته‌های محصول، زیرمجموعه‌ها، محصولات پرفروش و اولویت‌های اقتصادی.</div></div><div class="row"><div>Customer</div><div>شناخت مشتریان، نیازها، دغدغه‌های خرید و عوامل مؤثر بر تصمیم‌گیری.</div></div><div class="row"><div>Geography</div><div>محدوده جغرافیایی فروش و نقش آن در بازار هدف و رقابت.</div></div></div><div class="quote reveal d3"><p>قبل از ورود به Keyword Research باید بدانیم چه چیزی برای کسب‌وکار ارزش اقتصادی دارد.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="3" id="s4"><div class="wrap"><div class="k reveal">03 — The Digital Opportunity</div><h2 class="reveal d1">مسئله فقط «نداشتن سایت» نیست؛<br/><span class="gold">مسئله فرصت‌های دیده‌نشده است.</span></h2><div class="grid"><div class="card wide reveal"><h3>From Physical Presence</h3><p>تجربه و اعتبار فروشگاه فیزیکی می‌تواند به یک حضور دیجیتال ساختاریافته منتقل شود؛ اما این انتقال باید بر اساس رفتار واقعی کاربران و تقاضای بازار انجام شود.</p></div><div class="card wide reveal d1"><h3>To Search Presence</h3><p>هدف، ساخت یک کانال فروش و جذب مشتری قابل اندازه‌گیری است؛ نه صرفاً افزایش بازدید بدون نتیجه تجاری.</p></div></div><div class="quote reveal d2"><p><strong class="gold">Traffic ≠ Success</strong><br/>موفقیت زمانی معنا پیدا می‌کند که ورودی مرتبط به مشاهده محصول، تماس، درخواست مشاوره، ثبت سفارش و درآمد تبدیل شود.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="4" id="s5"><div class="wrap"><div class="k reveal">04 — Strategic Foundation</div><h2 class="reveal d1">Targeting · Positioning</h2><p class="reveal d2">پیش از رقابت در Search باید مشخص شود برای چه گروهی ارزش ایجاد می‌کنیم و جایگاه مطلوب برند در ذهن مشتری چیست.</p><div class="grid"><div class="card reveal"><h3>Segmentation</h3><p>تقسیم بازار بر اساس نیاز، رفتار خرید، قدرت خرید، موقعیت جغرافیایی و نوع نیاز به محصول.</p></div><div class="card reveal d1"><h3>Targeting</h3><p>انتخاب سگمنت‌هایی که بیشترین تناسب را با محصولات، توان فروش و اهداف تجاری دارند.</p></div><div class="card reveal d2"><h3>Positioning</h3><p>تعیین جایگاه مطلوب برند و پاسخ به اینکه چرا مشتری باید این فروشگاه را انتخاب کند.</p></div></div><div class="quote reveal d3"><p>STP کمک می‌کند استراتژی SEO از یک فهرست کلمات کلیدی به یک تصمیم کسب‌وکاری تبدیل شود.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="5" id="s6"><div class="wrap"><div class="k reveal">05 — Competitor Research</div><h2 class="reveal d1">هر رقیبی که در بازار می‌بینیم،<br/>لزوماً <span class="gold">رقیب SEO ما نیست.</span></h2><div class="grid"><div class="card reveal"><h3>Direct Competitors</h3><ul class="list"><li>اطلاعات کارفرما</li><li>حوزه فعالیت مشابه</li><li>بازار و محدوده جغرافیایی مشترک</li></ul></div><div class="card reveal d1"><h3>SEO Competitors</h3><ul class="list"><li>نتایج SERP</li><li>رتبه‌گیری برای عبارات هدف</li><li>بررسی سهم Search</li></ul></div><div class="card reveal d2"><h3>Tools &amp; Signals</h3><ul class="list"><li>Mangools</li><li>Semrush</li><li>Authority Score</li><li>Organic / Paid Traffic</li><li>Organic / Paid Keywords</li><li>Backlinks / Ref. Domains</li></ul></div></div><p class="reveal d3">رقبا بر اساس ارتباط واقعی با صنف، محصول، بازار هدف و موقعیت جغرافیایی غربال می‌شوند؛ سپس داده‌های ابزارها برای تکمیل تصویر رقابتی استفاده خواهند شد.</p></div></section>
+<section aria-hidden="true" class="section" data-slide="6" id="s7"><div class="wrap"><div class="k reveal">06 — Search &amp; Keyword Intelligence</div><h2 class="reveal d1">هر جست‌وجو یک نیاز است؛<br/>و هر نیاز، <span class="gold">ارزش یکسانی ندارد.</span></h2><div class="grid"><div class="card reveal"><h3>01 · Keyword</h3><p>شناسایی عبارات و موضوعات مرتبط با محصولات و خدمات.</p></div><div class="card reveal d1"><h3>02 · Search Volume</h3><p>درک میزان تقاضای جست‌وجو و فرصت‌های احتمالی بازار.</p></div><div class="card reveal d2"><h3>03 · Competition</h3><p>سنجش سطح رقابت برای اولویت‌بندی فرصت‌ها.</p></div><div class="card reveal"><h3>04 · User Intent</h3><p>درک هدف واقعی کاربر از جست‌وجو و نزدیک شدن به نیاز او.</p></div><div class="card reveal d1"><h3>05 · Economic Value</h3><p>تمرکز بر فرصت‌هایی که ظرفیت واقعی ایجاد مشتری و درآمد دارند.</p></div></div></div></section>
+<section aria-hidden="true" class="section" data-slide="7" id="s8"><div class="wrap"><div class="k reveal">07 — Website Architecture</div><h2 class="reveal d1">معماری سایت را بر اساس موجودی نمی‌چینیم؛<br/><span class="gold">بر اساس جست‌وجو و تصمیم خرید می‌سازیم.</span></h2><p class="reveal d2">ساختار نهایی سایت پس از تحلیل Keyword، User Intent، Product Structure، Business Priorities و Competitor Analysis تعیین خواهد شد.</p><div class="flow reveal d3"><div class="flow-item"><span class="flow-no">01</span><strong class="flow-title">Home</strong><p>ورودی‌های اصلی</p></div><div class="flow-item"><span class="flow-no">02</span><strong class="flow-title">Category</strong><p>دسته‌های اصلی</p></div><div class="flow-item"><span class="flow-no">03</span><strong class="flow-title">Subcategory</strong><p>زیرگروه‌های هدفمند</p></div><div class="flow-item"><span class="flow-no">04</span><strong class="flow-title">Product</strong><p>صفحات محصول</p></div><div class="flow-item"><span class="flow-no">05</span><strong class="flow-title">Content</strong><p>محتوای پشتیبان</p></div></div><div class="quote reveal"><p>معماری اطلاعات باید هم برای کاربر قابل فهم باشد و هم بستری منطقی برای Crawling، Indexing و رشد Search ایجاد کند.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="8" id="s9"><div class="wrap"><div class="k reveal">08 — User Journey &amp; Micro Moments</div><h2 class="reveal d1">قبل از اینکه کاربر خرید کند،<br/>چند بار <span class="gold">جست‌وجو می‌کند؟</span></h2><div class="grid"><div class="card reveal"><h3>I-Want-to-Know</h3><p>«بهترین انتخاب برای نیاز و بودجه من چیست؟»</p></div><div class="card reveal d1"><h3>I-Want-to-Compare</h3><p>«کدام مدل و برند ارزش خرید بیشتری دارد؟»</p></div><div class="card reveal d2"><h3>I-Want-to-Buy</h3><p>«خرید محصول با قیمت و مشخصات مناسب»</p></div></div><div class="quote reveal d3"><p>شناخت Micro Momentها کمک می‌کند User Intent را دقیق‌تر بفهمیم و محتوای مناسب را در نقطه مناسب از مسیر تصمیم‌گیری قرار دهیم.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="9" id="s10"><div class="wrap"><div class="k reveal">09 — SEO Growth</div><h2 class="reveal d1">SEO یک پروژه کوتاه‌مدت نیست؛<br/><span class="gold">یک سیستم جذب مشتری در حال رشد است.</span></h2><div class="grid"><div class="card reveal"><h3>On-Page SEO</h3><p>ساختار و محتوای صفحات بر اساس نیاز کاربران و هدف جست‌وجو.</p></div><div class="card reveal d1"><h3>Technical SEO</h3><p>ایجاد زیرساخت مناسب برای Crawling، Indexing و عملکرد فنی سایت.</p></div><div class="card reveal d2"><h3>Content Strategy</h3><p>توسعه محتوایی که به نیاز واقعی کاربر و فرآیند تصمیم خرید پاسخ دهد.</p></div><div class="card reveal"><h3>Pillar &amp; Cluster</h3><p>ساخت ارتباط موضوعی میان صفحات اصلی و زیرموضوعات مرتبط.</p></div><div class="card reveal d1"><h3>Off-Page SEO</h3><p>بررسی فعالیت‌های مرتبط با افزایش اعتبار و توسعه پروفایل لینک.</p></div><div class="card reveal d2"><h3>Ongoing SEO</h3><p>تحلیل، بهینه‌سازی و ادامه مسیر بر اساس داده و عملکرد واقعی.</p></div></div></div></section>
+<section aria-hidden="true" class="section" data-slide="10" id="s11"><div class="wrap"><div class="k reveal">10 — Measurement</div><h2 class="reveal d1">معیار موفقیت، فقط <span class="gold">ترافیک بیشتر</span> نیست.</h2><div class="grid"><div class="card reveal"><h3>Qualified Traffic</h3><p>ورودی مرتبط با محصولات و بازار هدف.</p></div><div class="card reveal d1"><h3>Engagement</h3><p>تعامل واقعی کاربر با صفحات و محتوا.</p></div><div class="card reveal d2"><h3>Conversion</h3><p>حرکت کاربر از جست‌وجو به اقدام ارزشمند.</p></div><div class="card reveal"><h3>Leads</h3><p>تولید سرنخ‌های مرتبط و قابل پیگیری.</p></div><div class="card reveal d1"><h3>Revenue</h3><p>اثر نهایی تلاش‌های دیجیتال بر ارزش اقتصادی کسب‌وکار.</p></div></div><div class="quote reveal d2"><p>KPIهای دقیق پس از شناخت کامل کسب‌وکار، مدل فروش و داده‌های واقعی پروژه تعیین خواهند شد.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="11" id="s12"><div class="wrap"><div class="k reveal">11 — Project Deliverables</div><h2 class="reveal d1">خروجی‌هایی که از تحلیل به <span class="gold">اقدام</span> می‌رسند.</h2><div class="grid"><div class="card reveal"><h3>Strategy</h3><p>سند استراتژی پروژه</p></div><div class="card reveal d1"><h3>Market</h3><p>تحلیل اولیه بازار و صنعت</p></div><div class="card reveal d2"><h3>STP</h3><p>شناخت و دسته‌بندی بازار هدف</p></div><div class="card reveal"><h3>Competitor</h3><p>شناسایی و تحلیل رقبا</p></div><div class="card reveal d1"><h3>Keyword</h3><p>تحقیق عبارات کلیدی و User Intent</p></div><div class="card reveal d2"><h3>Website</h3><p>ساختار پیشنهادی و معماری اطلاعات</p></div><div class="card reveal"><h3>SEO</h3><p>استراتژی SEO و مسیر رشد</p></div><div class="card reveal d1"><h3>Roadmap</h3><p>نقشه راه اجرای پروژه</p></div></div></div></section>
+<section aria-hidden="true" class="section" data-slide="12" id="s13"><div class="wrap"><div class="k reveal">12 — Growth Roadmap</div><h2 class="reveal d1">از Foundation تا <span class="gold">Scale</span></h2><div class="flow reveal d2"><div class="flow-item"><span class="flow-no">01</span><strong class="flow-title">Foundation</strong><p>تحقیق و تدوین استراتژی</p></div><div class="flow-item"><span class="flow-no">02</span><strong class="flow-title">Launch</strong><p>طراحی و راه‌اندازی وب‌سایت</p></div><div class="flow-item"><span class="flow-no">03</span><strong class="flow-title">Optimization</strong><p>بهینه‌سازی و اجرای SEO</p></div><div class="flow-item"><span class="flow-no">04</span><strong class="flow-title">Growth</strong><p>توسعه محتوا و حضور در Search</p></div><div class="flow-item"><span class="flow-no">05</span><strong class="flow-title">Scale</strong><p>توسعه مستمر بر اساس داده‌ها</p></div></div><div class="quote reveal d3"><p>پروژه یک اقدام یک‌باره نیست؛ یک مسیر مرحله‌ای است که هر مرحله، پایه مرحله بعد را می‌سازد.</p></div></div></section>
+<section aria-hidden="true" class="section" data-slide="13" id="s14"><div class="wrap"><div class="k reveal">13 — Collaboration Packages</div><h2 class="reveal d1">سه نقطه برای شروع؛<br/><span class="gold">یک مسیر برای رشد.</span></h2><div class="grid"><div class="card reveal"><h3>Package 01 · Strategy Foundation</h3><p>برای کسب‌وکاری که پیش از طراحی سایت به نقشه راه مشخص نیاز دارد.</p><ul class="list"><li>Business Analysis</li><li>Industry Analysis</li><li>STP</li><li>Competitor Research</li><li>Keyword Research</li><li>User Intent</li><li>Website Strategy</li><li>SEO Roadmap</li></ul></div><div class="card featured reveal d1"><h3>Package 02 · Digital Launch</h3><p>برای ایجاد زیرساخت دیجیتال بر اساس استراتژی تدوین‌شده.</p><ul class="list"><li>تمام خدمات Strategy Foundation</li><li>Website Structure</li><li>Website Development</li><li>SEO Foundation</li><li>On-Page SEO</li><li>Technical SEO</li></ul></div><div class="card reveal d2"><h3>Package 03 · Growth</h3><p>برای ادامه مسیر پس از راه‌اندازی و ایجاد روند مستمر رشد ارگانیک.</p><ul class="list"><li>تمام خدمات Digital Launch</li><li>Ongoing SEO</li><li>Content Strategy</li><li>Pillar &amp; Cluster</li><li>Off-Page SEO</li><li>Performance Monitoring</li></ul></div></div></div></section>
+<section class="section approval-slide" id="s15" data-slide="14" aria-hidden="true">
+  <div class="wrap approval-wrap">
+    <div class="k reveal">14 — Service Recommendation & Approval</div>
+    <h2 class="reveal d1">پیشنهاد اجرایی برای <span class="gold">ساخت کانال فروش دیجیتال آریا هوم</span></h2>
+    <p class="lead reveal d2">با توجه به تنوع محصولات، ظرفیت فروش و اهمیت حضور قدرتمند در نتایج جست‌وجو، پیشنهاد من اجرای یک مسیر یکپارچه است: طراحی فروشگاه آنلاین حرفه‌ای، ایجاد لایه شرکتی و اعتمادساز برند، و پیاده‌سازی زیرساخت SEO از همان روز اول.</p>
+
+    <div class="approval-layout reveal d3">
+      <div class="service-panel">
+        <div class="panel-head"><span>پیشنهاد خدمات اصلی</span><strong>Recommended Scope</strong></div>
+        <div class="service-premium">
+          <article class="service-card featured-service"><span class="service-index">01</span><h3>طراحی فروشگاه آنلاین</h3><p>طراحی تجربه خرید، دسته‌بندی محصولات، صفحات محصول، سبد خرید، پرداخت، حساب کاربری و زیرساخت توسعه‌پذیر.</p><ul><li>طراحی اختصاصی و ریسپانسیو</li><li>ساختار مناسب فروش و SEO</li><li>اتصال درگاه و مدیریت سفارش</li></ul></article>
+          <article class="service-card"><span class="service-index">02</span><h3>وب‌سایت شرکتی و برندینگ</h3><p>معرفی حرفه‌ای برند، مزیت‌های رقابتی، خدمات، شعب، تماس و ایجاد اعتبار دیجیتال برای مشتریان و شرکای تجاری.</p><ul><li>صفحات معرفی و اعتمادسازی</li><li>هویت بصری هماهنگ</li><li>محتوای هدفمند برند</li></ul></article>
+          <article class="service-card"><span class="service-index">03</span><h3>SEO و رشد دیجیتال</h3><p>تحقیق بازار و کلمات کلیدی، معماری سایت، SEO فنی، تولید محتوا و اندازه‌گیری عملکرد پس از راه‌اندازی.</p><ul><li>Keyword & Competitor Research</li><li>Technical + On-page SEO</li><li>Growth Roadmap</li></ul></article>
+        </div>
+      </div>
+
+      <div class="contract-panel">
+        <div class="consultant-card">
+          <span class="mini-label">Proposal Consultant</span>
+          <div class="signature-name">Atena Karami</div>
+          <strong>آتنا کرمی</strong>
+          <p>SEO Strategy · Digital Growth Strategy · Website Strategy</p>
+          <div class="validity"><span>اعتبار این پیشنهاد</span><b>۱۰ روز از تاریخ تکمیل فرم</b></div>
+          <div class="owner-signature" aria-label="محل امضای آتنا کرمی">
+            <div class="signature-placeholder">Atena K.</div>
+            <small>امضای ارائه‌دهنده پیشنهاد</small>
+          </div>
+        </div>
+
+        <form class="client-form" id="clientForm" autocomplete="on">
+          <div class="form-title"><span>تأیید و اطلاعات کارفرما</span><small>Client Information & Digital Signature</small></div>
+          <div class="field-grid">
+            <label><span>نام و نام خانوادگی</span><input id="clientName" name="clientName" type="text" placeholder="نام کامل کارفرما" required></label>
+            <label><span>سمت در شرکت</span><input id="clientRole" name="clientRole" type="text" placeholder="مثلاً مدیرعامل" required></label>
+            <label><span>نام شرکت</span><input id="companyName" name="companyName" type="text" placeholder="نام مجموعه یا فروشگاه"></label>
+            <label><span>تاریخ تکمیل</span><input id="fillDate" name="fillDate" type="date" required></label>
+          </div>
+          <label class="scope-label"><span>خدمات مورد تأیید</span>
+            <div class="check-row"><label><input type="checkbox" value="طراحی فروشگاه آنلاین" checked> طراحی فروشگاه آنلاین</label><label><input type="checkbox" value="وب‌سایت شرکتی"> وب‌سایت شرکتی</label><label><input type="checkbox" value="SEO و رشد دیجیتال" checked> SEO و رشد دیجیتال</label></div>
+          </label>
+          <div class="signature-area">
+            <div class="signature-toolbar"><span>امضای دیجیتال کارفرما</span><button type="button" id="clearSignature">پاک‌کردن امضا</button></div>
+            <canvas id="signatureCanvas" aria-label="فیلد امضای دیجیتال"></canvas>
+            <small>با ماوس یا لمس، امضای خود را داخل کادر ثبت کنید.</small>
+          </div>
+          <label class="consent"><input id="approvalCheck" type="checkbox" required><span>اطلاعات فوق را تأیید می‌کنم و تمایل خود را برای ادامه مذاکره، تعیین دامنه نهایی خدمات و آماده‌سازی قرارداد اعلام می‌کنم.</span></label>
+          <div class="form-actions"><button type="button" class="primary-action" id="savePdf">دریافت نسخه PDF تکمیل‌شده</button><button type="button" class="secondary-action" id="saveDraft">ذخیره اطلاعات روی این دستگاه</button></div>
+          <div class="form-status" id="formStatus" role="status"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<section class="section thanks-slide" id="s16" data-slide="15" aria-hidden="true">
+  <div class="wrap thank-wrap">
+    <div class="thank-mark reveal">AK</div>
+    <div class="k reveal d1">Thank You · Ariyahome Proposal</div>
+    <h2 class="reveal d2">از زمانی که برای بررسی این پیشنهاد اختصاص دادید،<br><span class="gold">صمیمانه سپاسگزارم.</span></h2>
+    <p class="reveal d3">این پروپوزال با هدف ارائه تصویری شفاف از مسیر اجرا، اولویت‌های تجاری و ظرفیت رشد دیجیتال آریا هوم تهیه شده است. در مرحله بعد، دامنه نهایی خدمات، زمان‌بندی، مسئولیت‌ها و شرایط قرارداد بر اساس انتخاب شما نهایی خواهد شد.</p>
+    <div class="thank-sign reveal d3"><span class="signature-name">Atena Karami</span><small>SEO & Digital Growth Strategist</small></div>
+    <button type="button" class="restart-btn reveal d3" id="restartProposal">بازگشت به صفحه اول</button>
+  </div>
+  
+</section>
+</div>
+<div class="nav-dots" id="navDots" aria-label="فهرست صفحات"></div>
+<div class="footer-brand"><span>Ariyahome-Proposal</span><span>Atena Karami</span></div>
+<div class="slide-controls"><button id="prevBtn" type="button" aria-label="صفحه قبلی">→</button><button id="nextBtn" type="button" aria-label="صفحه بعدی">←</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" onerror="this.remove()"></script>
+<script>
+const slides=[...document.querySelectorAll('.section')];
+const stage=document.getElementById('stage');
+const progress=document.getElementById('progress');
+const dots=document.getElementById('navDots');
+const prevBtn=document.getElementById('prevBtn');
+const nextBtn=document.getElementById('nextBtn');
+let currentSlide=0, locked=false;
+slides.forEach((_,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label',`رفتن به صفحه ${i+1}`);b.addEventListener('click',()=>goToSlide(i));dots.appendChild(b)});
+function renderSlide(next=currentSlide,direction=1,instant=false){
+  if(locked&&!instant)return; locked=true;
+  const old=currentSlide; currentSlide=Math.max(0,Math.min(slides.length-1,next));
+  slides.forEach((s,i)=>{s.classList.remove('active','exit-left','enter-back');s.setAttribute('aria-hidden','true');if(i===old&&i!==currentSlide)s.classList.add(direction>0?'exit-left':'enter-back')});
+  const active=slides[currentSlide]; active.classList.add('active');active.setAttribute('aria-hidden','false');active.scrollTop=0;
+  [...dots.children].forEach((d,i)=>d.classList.toggle('active',i===currentSlide));
+  progress.style.width=((currentSlide+1)/slides.length*100)+'%';
+  prevBtn.disabled=currentSlide===0;nextBtn.disabled=currentSlide===slides.length-1;
+  history.replaceState(null,'',`#s${currentSlide+1}`);
+  setTimeout(()=>{slides.forEach((s,i)=>{if(i!==currentSlide)s.classList.remove('exit-left','enter-back')});locked=false},instant?0:800)
+}
+function goToSlide(index){if(index===currentSlide)return;renderSlide(index,index>currentSlide?1:-1)}
+prevBtn.addEventListener('click',()=>goToSlide(currentSlide-1));nextBtn.addEventListener('click',()=>goToSlide(currentSlide+1));
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();goToSlide(currentSlide+1)}if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();goToSlide(currentSlide-1)}if(e.key==='Home')goToSlide(0);if(e.key==='End')goToSlide(slides.length-1)});
+let touchX=0;stage.addEventListener('touchstart',e=>touchX=e.changedTouches[0].screenX,{passive:true});stage.addEventListener('touchend',e=>{const dx=e.changedTouches[0].screenX-touchX;if(Math.abs(dx)>70)goToSlide(currentSlide+(dx<0?1:-1))},{passive:true});
+const hashIndex=Math.max(0,Math.min(slides.length-1,(parseInt(location.hash.replace('#s',''))||1)-1));currentSlide=hashIndex;renderSlide(currentSlide,1,true);
+
+// Digital signature canvas
+const canvas=document.getElementById('signatureCanvas'),ctx=canvas.getContext('2d');let drawing=false,hasSignature=false;
+function resizeCanvas(){const ratio=Math.max(window.devicePixelRatio||1,1),rect=canvas.getBoundingClientRect(),saved=hasSignature?canvas.toDataURL():null;canvas.width=rect.width*ratio;canvas.height=rect.height*ratio;ctx.setTransform(ratio,0,0,ratio,0,0);ctx.lineWidth=2.2;ctx.lineCap='round';ctx.lineJoin='round';ctx.strokeStyle='#07182f';if(saved){const img=new Image();img.onload=()=>ctx.drawImage(img,0,0,rect.width,rect.height);img.src=saved}}
+function point(e){const r=canvas.getBoundingClientRect(),t=e.touches?.[0]||e;return{x:t.clientX-r.left,y:t.clientY-r.top}}
+function startDraw(e){drawing=true;hasSignature=true;const p=point(e);ctx.beginPath();ctx.moveTo(p.x,p.y);e.preventDefault()}
+function draw(e){if(!drawing)return;const p=point(e);ctx.lineTo(p.x,p.y);ctx.stroke();e.preventDefault()}
+function endDraw(){drawing=false}
+['pointerdown'].forEach(ev=>canvas.addEventListener(ev,startDraw));canvas.addEventListener('pointermove',draw);window.addEventListener('pointerup',endDraw);window.addEventListener('resize',resizeCanvas);resizeCanvas();
+document.getElementById('clearSignature').addEventListener('click',()=>{ctx.clearRect(0,0,canvas.width,canvas.height);hasSignature=false});
+const fillDate=document.getElementById('fillDate');if(!fillDate.value)fillDate.value=new Date().toISOString().slice(0,10);
+const fields=['clientName','clientRole','companyName','fillDate'];
+function collectData(){return Object.fromEntries(fields.map(id=>[id,document.getElementById(id).value]))}
+function saveLocal(show=true){localStorage.setItem('ariyahomeProposalClient',JSON.stringify(collectData()));if(hasSignature)localStorage.setItem('ariyahomeProposalSignature',canvas.toDataURL('image/png'));if(show)showStatus('اطلاعات روی همین دستگاه ذخیره شد.')}
+function restoreLocal(){try{const data=JSON.parse(localStorage.getItem('ariyahomeProposalClient')||'{}');fields.forEach(id=>{if(data[id])document.getElementById(id).value=data[id]});const sig=localStorage.getItem('ariyahomeProposalSignature');if(sig){const img=new Image();img.onload=()=>{ctx.drawImage(img,0,0,canvas.clientWidth,canvas.clientHeight);hasSignature=true};img.src=sig}}catch(e){}}
+function showStatus(text,error=false){const el=document.getElementById('formStatus');el.textContent=text;el.style.color=error?'var(--danger)':'var(--g2)'}
+document.getElementById('saveDraft').addEventListener('click',()=>saveLocal(true));restoreLocal();
+
+document.getElementById('savePdf').addEventListener('click',async()=>{
+ const form=document.getElementById('clientForm');if(!form.reportValidity()){showStatus('لطفاً فیلدهای ضروری را کامل کنید.',true);return}if(!hasSignature){showStatus('لطفاً امضای دیجیتال را ثبت کنید.',true);return}
+ saveLocal(false);showStatus('در حال آماده‌سازی نسخه PDF…');
+ document.documentElement.classList.add('pdf-mode');document.body.classList.add('pdf-mode');
+ const fileName=`Ariyahome-Proposal-${(document.getElementById('clientName').value||'Client').replace(/\s+/g,'-')}.pdf`;
+ const opt={margin:0,filename:fileName,image:{type:'jpeg',quality:.96},html2canvas:{scale:1.4,useCORS:true,backgroundColor:'#07182f',scrollY:0},jsPDF:{unit:'px',format:[1587,1122],orientation:'landscape'},pagebreak:{mode:['css','legacy']}};
+ try{await html2pdf().set(opt).from(document.getElementById('stage')).save();showStatus('نسخه PDF با موفقیت دریافت شد.')}catch(err){console.error(err);showStatus('ساخت PDF انجام نشد. اتصال اینترنت و اجازه دانلود مرورگر را بررسی کنید.',true)}finally{document.documentElement.classList.remove('pdf-mode');document.body.classList.remove('pdf-mode');renderSlide(currentSlide,1,true)}
+});
+document.getElementById('restartProposal').addEventListener('click',()=>goToSlide(0));
+</script></body></html>
